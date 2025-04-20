@@ -1,0 +1,81 @@
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.100);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.pallete {
+    display: flex;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.color {
+    flex: 1;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.color:hover{
+    flex: 1.2;
+}
+
+button{
+/*Configuração do botão, sua cor, tamaho, etc..*/
+    background: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover{
+/*Trocar cor ao passar mouse encima*/
+    background: #3a5a8a;
+}
+
+.color-codes {
+/*Sombra*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.color-codes {
+/*Sombra*/
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    background: #eee;
+}
